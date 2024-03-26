@@ -4,7 +4,7 @@
     </a>
 </p>
 
-# Exemplo de uso do AsyncTask
+# Exemplo de uso do WorkManager
 
 Repositório criado para mostrar uma aplicação simples usando WorkManager na disciplina de
 Desenvolvimento Mobile II, do curso de Tecnólogo em Analise e Desenvolvimento de Sistemas do
@@ -31,6 +31,6 @@ O WorkManager é uma biblioteca do Android Jetpack que oferece uma solução rob
 Essas características tornam o WorkManager uma ferramenta poderosa e flexível para gerenciar tarefas em segundo plano no Android, adequada para uma variedade de casos de uso, como upload de arquivos, sincronização de dados e processamento de imagens¹².
 
 Origem: conversa com o Bing, 26/03/2024
-(1) Trabalho em segundo plano com WorkManager (Kotlin). https://developer.android.com/codelabs/android-workmanager?hl=pt-BR.
-(2) WorkManager — O que é? Como usar? | by Haldny Santos - Medium. https://medium.com/android-dev-br/workmanager-o-que-%C3%A9-como-usar-26f5b800984e.
-(3) Trabalho em segundo plano com a WorkManager (Java). https://developer.android.com/codelabs/android-workmanager-java?hl=pt-br.
+ - (1) Trabalho em segundo plano com WorkManager (Kotlin). https://developer.android.com/codelabs/android-workmanager?hl=pt-BR.
+ - (2) WorkManager — O que é? Como usar? | by Haldny Santos - Medium. https://medium.com/android-dev-br/workmanager-o-que-%C3%A9-como-usar-26f5b800984e.
+ - (3) Trabalho em segundo plano com a WorkManager (Java). https://developer.android.com/codelabs/android-workmanager-java?hl=pt-br.
