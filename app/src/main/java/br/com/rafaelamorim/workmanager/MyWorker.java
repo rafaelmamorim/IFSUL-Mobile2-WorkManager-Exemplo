@@ -8,14 +8,20 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 import androidx.work.Worker;
+import androidx.work.WorkerParameters;
+
 public class MyWorker extends Worker {
+
+    public MyWorker(@NonNull Context context, @NonNull WorkerParameters workerParams) {
+        super(context, workerParams);
+    }
 
     @NonNull
     @Override
     public Result doWork() {
         //thetechnocafe.com/how-to-use-workmanager-n-android/
         sendNotification("Trabalhando com o Work Manager", "Mensagem enviada pelo WorkManager.");
-        return Result.SUCCESS;
+        return Result.success();
     }
 
     public void sendNotification(String title, String message) {
